@@ -26,7 +26,7 @@ const NavBar = () => {
       className={
         navBg
           ? ` w-full overflow-hidden fixed 2xl:px-44 bg-[#fff] z-30`
-          : ` w-full overflow-hidden fixed 2xl:px-44 bg-[#363d43ad] z-30`
+          : ` w-full overflow-hidden fixed 2xl:px-44 bg-[#363d4347] z-30`
       }
     >
       <div className=" flex justify-between items-center container py-3">

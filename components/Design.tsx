@@ -73,7 +73,7 @@ const Design = () => {
                 }}
                 className=" text-[13px] text-slate-600 text-center dark:text-slate-200 w-[60%] md:text-end md:w-full"
               >
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                This is Photoshop s version of Lorem Ipsum. Proin gravida nibh
                 vel velit auctor aliquet
               </motion.p>
             </motion.div>
@@ -103,7 +103,7 @@ const Design = () => {
                 }}
                 className=" text-[13px] text-slate-600 text-center dark:text-slate-200 w-[60%] md:text-end md:w-full"
               >
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                This is Photoshop s version of Lorem Ipsum. Proin gravida nibh
                 vel velit auctor aliquet
               </motion.p>
             </motion.div>
@@ -172,7 +172,7 @@ const Design = () => {
                 }}
                 className=" text-[13px] text-slate-600 text-center dark:text-slate-200 w-[60%] md:text-start md:w-full"
               >
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                This is Photoshop s version of Lorem Ipsum. Proin gravida nibh
                 vel velit auctor aliquet
               </motion.p>
             </motion.div>
@@ -202,7 +202,7 @@ const Design = () => {
                 }}
                 className=" text-[13px] text-slate-600 text-center dark:text-slate-200 w-[60%] md:text-start md:w-full"
               >
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                This is Photoshop s version of Lorem Ipsum. Proin gravida nibh
                 vel velit auctor aliquet
               </motion.p>
             </motion.div>

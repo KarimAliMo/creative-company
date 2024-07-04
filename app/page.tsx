@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Design from "@/components/Design";
 import Features from "@/components/Features";
 import Landing from "@/components/Landing";
+import Portfolio from "@/components/Portfolio";
 import Pricing from "@/components/Pricing";
 import Statistics from "@/components/Statistics";
 import Team from "@/components/Team";
@@ -18,6 +19,7 @@ export default function Home() {
       <Statistics />
       <Team />
       <Pricing />
+      <Portfolio />
     </main>
   );
 }

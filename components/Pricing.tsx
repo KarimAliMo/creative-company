@@ -5,7 +5,7 @@ import YearlyPricing from "./YearlyPricing";
 const Pricing = () => {
   return (
     <div className=" w-full overflow-x-hidden bg-[#F6F7F8] dark:bg-[#f6f7f8e3]">
-      <div className=" container 2xl:px-44 pt-[30vh]">
+      <div className=" container 2xl:px-44 pt-[30vh] pb-20">
         <div className=" pt-[78px]">
           <p className=" text-sm text-center text-[#24CDD5]">
             Quisque tellus risus, adipisci

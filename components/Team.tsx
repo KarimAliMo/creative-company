@@ -25,7 +25,6 @@ async function getData() {
 }
 const Team = async () => {
   const data: memberType[] = await getData();
-  console.log(data);
   return (
     <div className=" w-full pt-[84px]">
       <div className=" container 2xl:px-44">

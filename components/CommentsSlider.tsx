@@ -42,7 +42,7 @@ const CommentsSlider = () => {
               <p className=" text-center text-[#808080] text-[13px] lg:text-sm mt-[10px] mb-[15px] lg:text-start">
                 We have a number of different teams within our agency that
                 specialise in different areas of business so you can be sure
-                that you won't receive a generic service and although we boast a
+                that you won t receive a generic service and although we boast a
                 years and years of service.
               </p>
               <div className=" flex justify-center items-center lg:justify-start gap-1">
@@ -78,7 +78,7 @@ const CommentsSlider = () => {
               <p className=" text-center text-[#808080] text-[13px] lg:text-sm mt-[10px] mb-[15px] lg:text-start">
                 We have a number of different teams within our agency that
                 specialise in different areas of business so you can be sure
-                that you won't receive a generic service and although we boast a
+                that you won t receive a generic service and although we boast a
                 years and years of service.
               </p>
               <div className=" flex justify-center items-center lg:justify-start gap-1">
@@ -114,7 +114,7 @@ const CommentsSlider = () => {
               <p className=" text-center text-[#808080] text-[13px] lg:text-sm mt-[10px] mb-[15px] lg:text-start">
                 We have a number of different teams within our agency that
                 specialise in different areas of business so you can be sure
-                that you won't receive a generic service and although we boast a
+                that you won t receive a generic service and although we boast a
                 years and years of service.
               </p>
               <div className=" flex justify-center items-center lg:justify-start gap-1">
@@ -150,7 +150,7 @@ const CommentsSlider = () => {
               <p className=" text-center text-[#808080] text-[13px] lg:text-sm mt-[10px] mb-[15px] lg:text-start">
                 We have a number of different teams within our agency that
                 specialise in different areas of business so you can be sure
-                that you won't receive a generic service and although we boast a
+                that you won t receive a generic service and although we boast a
                 years and years of service.
               </p>
               <div className=" flex justify-center items-center lg:justify-start gap-1">

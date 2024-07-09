@@ -28,7 +28,7 @@ const Portfolio = () => {
                 style={{
                   background: `radial-gradient(circle,#23ced5e6,#5192e1e6)`,
                 }}
-                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 hover:opacity-100"
+                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center transition-all duration-500 opacity-0 hover:opacity-100"
               >
                 <div className=" flex justify-center items-center gap-3">
                   <Link
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 style={{
                   background: `radial-gradient(circle,#23ced5e6,#5192e1e6)`,
                 }}
-                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 hover:opacity-100"
+                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center transition-all duration-500 opacity-0 hover:opacity-100"
               >
                 <div className=" flex justify-center items-center gap-3">
                   <Link
@@ -86,7 +86,7 @@ const Portfolio = () => {
                 style={{
                   background: `radial-gradient(circle,#23ced5e6,#5192e1e6)`,
                 }}
-                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 hover:opacity-100"
+                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center transition-all duration-500 opacity-0 hover:opacity-100"
               >
                 <div className=" flex justify-center items-center gap-3">
                   <Link
@@ -115,7 +115,7 @@ const Portfolio = () => {
                 style={{
                   background: `radial-gradient(circle,#23ced5e6,#5192e1e6)`,
                 }}
-                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 hover:opacity-100"
+                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center transition-all duration-500 opacity-0 hover:opacity-100"
               >
                 <div className=" flex justify-center items-center gap-3">
                   <Link
@@ -144,7 +144,7 @@ const Portfolio = () => {
                 style={{
                   background: `radial-gradient(circle,#23ced5e6,#5192e1e6)`,
                 }}
-                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 hover:opacity-100"
+                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center transition-all duration-500 opacity-0 hover:opacity-100"
               >
                 <div className=" flex justify-center items-center gap-3">
                   <Link
@@ -173,7 +173,7 @@ const Portfolio = () => {
                 style={{
                   background: `radial-gradient(circle,#23ced5e6,#5192e1e6)`,
                 }}
-                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center opacity-0 hover:opacity-100"
+                className=" absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center transition-all duration-500 opacity-0 hover:opacity-100"
               >
                 <div className=" flex justify-center items-center gap-3">
                   <Link

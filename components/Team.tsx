@@ -3,8 +3,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import { memberType } from "@/lib/interface";
@@ -67,7 +65,7 @@ const Team = async () => {
                             alt="employee-pic"
                             width={500}
                             height={600}
-                            className=" hover:scale-125"
+                            className=" hover:scale-125 transition-all duration-500"
                           />
                         </div>
                         <div className=" py-[26px] px-[13px] dark:text-slate-800">

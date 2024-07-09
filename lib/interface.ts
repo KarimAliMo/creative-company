@@ -37,3 +37,11 @@ export interface memberType {
   picture: any;
   job: string;
 }
+export interface ArticleType {
+  title: string;
+  articlePanner: any;
+  description: string;
+  writer: string;
+  publish: string;
+  comments: number;
+}

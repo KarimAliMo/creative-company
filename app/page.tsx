@@ -1,7 +1,10 @@
 import About from "@/components/About";
+import Blog from "@/components/Blog";
+import Comments from "@/components/Comments";
 import Design from "@/components/Design";
 import Features from "@/components/Features";
 import Landing from "@/components/Landing";
+import Partners from "@/components/Partners";
 import Portfolio from "@/components/Portfolio";
 import Pricing from "@/components/Pricing";
 import Statistics from "@/components/Statistics";
@@ -20,6 +23,9 @@ export default function Home() {
       <Team />
       <Pricing />
       <Portfolio />
+      <Comments />
+      <Partners />
+      <Blog />
     </main>
   );
 }

@@ -11,6 +11,7 @@ import Pricing from "@/components/Pricing";
 import Statistics from "@/components/Statistics";
 import Team from "@/components/Team";
 import Work from "@/components/Work";
+export const revalidate = 0; // revalidate at most 0 seconds
 
 export default function Home() {
   return (

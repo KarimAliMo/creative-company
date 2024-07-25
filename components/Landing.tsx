@@ -5,6 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import TextSlider from "./TextSlider";
+export const revalidate = 0; // revalidate at most 0 seconds
 
 async function getData() {
   const query = `
@@ -17,7 +18,6 @@ async function getData() {
   const data = await client.fetch(query);
   return data;
 }
-export const revalidate = 20; // revalidate at most every hour
 const Landing = async () => {
   const data = await getData();
   return (

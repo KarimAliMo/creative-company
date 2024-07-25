@@ -1,7 +1,7 @@
 import { client } from "@/lib/sanity";
 import EmptySlider from "./EmptySlider";
 import { landingBlock } from "@/lib/interface";
-export const revalidate = 0; // revalidate at most every hour
+export const revalidate = 0; // revalidate at most 0 seconds
 async function getData() {
   const query = `
     *[_type == 'landing']{

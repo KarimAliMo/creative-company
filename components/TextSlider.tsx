@@ -1,7 +1,7 @@
 import { client } from "@/lib/sanity";
 import EmptySlider from "./EmptySlider";
 import { landingBlock } from "@/lib/interface";
-
+export const revalidate = 0; // revalidate at most every hour
 async function getData() {
   const query = `
     *[_type == 'landing']{
@@ -22,7 +22,7 @@ async function getData() {
   const data = await client.fetch(query);
   return data;
 }
-export const revalidate = 20; // revalidate at most every hour
+
 const TextSlider = async () => {
   const data: landingBlock = await getData();
   return (

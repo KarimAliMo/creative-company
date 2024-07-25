@@ -17,7 +17,7 @@ async function getData() {
   const data = await client.fetch(query);
   return data;
 }
-
+export const revalidate = 20; // revalidate at most every hour
 const Landing = async () => {
   const data = await getData();
   return (

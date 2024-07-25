@@ -22,6 +22,7 @@ async function getData() {
   const data = await client.fetch(query);
   return data;
 }
+export const revalidate = 20; // revalidate at most every hour
 const TextSlider = async () => {
   const data: landingBlock = await getData();
   return (

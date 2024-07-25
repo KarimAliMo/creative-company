@@ -10,10 +10,10 @@ const Portfolio = () => {
           <p className=" capitalize text-[#24CDD5] text-center text-sm lg:text-base xl:text-lg">
             lets explore out
           </p>
-          <h3 className=" capitalize text-slate-700 text-[32px] md:text-[35px] lg:text-[42px] xl:text-[48px] tracking-wider text-center mb-[30px]">
+          <h3 className=" capitalize text-slate-700 dark:text-slate-100 text-[32px] md:text-[35px] lg:text-[42px] xl:text-[48px] tracking-wider text-center mb-[30px]">
             our portfolio
           </h3>
-          <p className=" text-center text-[13px] lg:text-base mb-3 md:w-1/2 md:m-auto text-slate-500">
+          <p className=" text-center text-[13px] lg:text-base mb-3 md:w-1/2 md:m-auto text-slate-500 dark:text-slate-300">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolores
             omnis provident quam reiciendis voluptatum.
           </p>

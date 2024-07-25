@@ -13,7 +13,7 @@ const Contact = () => {
           <p className=" text-[#24CDD5] text-[15px] text-center">
             Quisque tellus risus
           </p>
-          <h3 className=" text-[#384141] text-center text-[32px] capitalize md:text-[35px] lg:text-[42px] xl:text-[50px]">
+          <h3 className=" text-[#384141] dark:text-[#ddd] text-center text-[32px] capitalize md:text-[35px] lg:text-[42px] xl:text-[50px]">
             contact us
           </h3>
           <p className=" text-center text-[13px] text-[#808080] mt-3 md:w-1/2 md:m-auto md:mt-4 lg:text-sm">
@@ -26,7 +26,7 @@ const Contact = () => {
             <p className=" text-[#24CDD5] text-sm xl:text-base">
               Trax Agency Worldwide
             </p>
-            <p className=" text-[21px] text-[#384141] xl:text-[30px]">
+            <p className=" text-[21px] text-[#384141] dark:text-[#ddd] xl:text-[30px]">
               Our London Agency
             </p>
             <p className=" text-[13px] text-[#808080] lg:text-sm">
@@ -45,12 +45,12 @@ const Contact = () => {
               Mon-Fri: 9am-5pm
             </p>
             <div className=" flex justify-center gap-4 md:gap-5 mt-3">
-              <FaFacebookF className=" text-sm text-[#4c4c4c] cursor-pointer" />
-              <FaTwitter className=" text-sm text-[#4c4c4c] cursor-pointer" />
-              <FaLinkedinIn className=" text-sm text-[#4c4c4c] cursor-pointer" />
-              <FaInstagram className=" text-sm text-[#4c4c4c] cursor-pointer" />
-              <FaWhatsapp className=" text-sm text-[#4c4c4c] cursor-pointer" />
-              <FaRegEnvelope className=" text-sm text-[#4c4c4c] cursor-pointer" />
+              <FaFacebookF className=" text-sm text-[#4c4c4c] hover:text-white cursor-pointer" />
+              <FaTwitter className=" text-sm text-[#4c4c4c] hover:text-white cursor-pointer" />
+              <FaLinkedinIn className=" text-sm text-[#4c4c4c] hover:text-white cursor-pointer" />
+              <FaInstagram className=" text-sm text-[#4c4c4c] hover:text-white cursor-pointer" />
+              <FaWhatsapp className=" text-sm text-[#4c4c4c] hover:text-white cursor-pointer" />
+              <FaRegEnvelope className=" text-sm text-[#4c4c4c] hover:text-white cursor-pointer" />
             </div>
           </div>
           <div className=" flex flex-col gap-3 mt-5 md:mt-0 md:order-1">

@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Blog from "@/components/Blog";
 import Comments from "@/components/Comments";
+import Contact from "@/components/Contact";
 import Design from "@/components/Design";
 import Features from "@/components/Features";
 import Landing from "@/components/Landing";
@@ -26,6 +27,7 @@ export default function Home() {
       <Comments />
       <Partners />
       <Blog />
+      <Contact />
     </main>
   );
 }

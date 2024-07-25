@@ -1,5 +1,6 @@
 import { StatisticsType } from "@/lib/interface";
 import { client } from "@/lib/sanity";
+export const revalidate = 0; // revalidate at most 0 seconds
 
 async function getData() {
   const query = `

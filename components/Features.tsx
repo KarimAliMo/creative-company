@@ -8,6 +8,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+export const revalidate = 0; // revalidate at most 0 seconds
+
 async function getData() {
   const query = `
     *[_type == 'features'] {

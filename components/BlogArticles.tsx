@@ -4,6 +4,7 @@ import Image from "next/image";
 import { CgCalendarDates } from "react-icons/cg";
 import { FaRegUser } from "react-icons/fa6";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+export const revalidate = 0; // revalidate at most 0 seconds
 
 async function getData() {
   const query = `

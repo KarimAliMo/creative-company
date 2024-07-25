@@ -9,6 +9,7 @@ import { memberType } from "@/lib/interface";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+export const revalidate = 0; // revalidate at most 0 seconds
 
 async function getData() {
   const query = `

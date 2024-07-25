@@ -2,6 +2,7 @@ import { aboutType } from "@/lib/interface";
 import { client } from "@/lib/sanity";
 import Image from "next/image";
 import AboutTemplate from "./AboutTemplate";
+export const revalidate = 0; // revalidate at most 0 seconds
 
 async function getData() {
   const query = `
